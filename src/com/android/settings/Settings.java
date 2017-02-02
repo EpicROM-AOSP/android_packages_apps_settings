@@ -489,6 +489,8 @@ public class Settings extends SettingsActivity {
 	 // EpicDumpster.
     public static class EpicDumpsterSettingsActivity extends SettingsActivity {}
 	
+	public static class DevRunningServicesActivity extends SettingsActivity { /* empty */ }
+	
 	/**
      * Activity for PreviouslyConnectedDeviceDashboardFragment
      */

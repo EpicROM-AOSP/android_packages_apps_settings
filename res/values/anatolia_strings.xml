@@ -158,4 +158,8 @@
     <string name="double_tap_to_sleep_statusbar_title">Statusbar</string>
     <string name="double_tap_to_sleep_statusbar_summary">Double tap on statusbar to put the device to sleep</string>
 
+    <!-- Statusbar Tuner -->
+    <string name="status_bar_system_icons_title">System icons</string>
+    <string name="status_bar_system_icons_summary">Control which status bar icons are shown</string>
+
 </resources>

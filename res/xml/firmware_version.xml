@@ -30,6 +30,14 @@
         settings:searchable="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.EpicVersionDetailPreferenceController"/>
 
+    <!-- EpicROM maintainer -->
+    <Preference
+        android:key="maintainer"
+        android:title="@string/maintainer"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.EpicMaintainerPreferenceController"/>
+
     <!-- Android version -->
     <Preference
         android:key="os_firmware_version"

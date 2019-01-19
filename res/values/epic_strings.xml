@@ -182,5 +182,9 @@
     <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream</string>
 
     <!-- Themes customisation -->
-    <string name="theme_customization_systemui_title">Theme color</string>	
+    <string name="theme_customization_systemui_title">Theme color</string>
+
+    <!-- Battery temp -->
+    <string name="battery_temp_title">Battery temperature</string>
+    <string name="battery_temp_summary">Tap to switch scale</string>	
 </resources>

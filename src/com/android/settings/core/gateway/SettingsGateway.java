@@ -198,6 +198,8 @@ import com.epic.dumpster.category.StatusBarSettings;
 
 import com.epic.dumpster.EpicDumpsterDashboard;
 
+import com.android.settings.livedisplay.LiveDisplaySettings;
+
 public class SettingsGateway {
 
     /**
@@ -383,6 +385,7 @@ public class SettingsGateway {
             StatusBarSettings.class.getName(),
 			EpicDumpsterDashboard.class.getName(),
 			RunningServices.class.getName(),
+			LiveDisplaySettings.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {

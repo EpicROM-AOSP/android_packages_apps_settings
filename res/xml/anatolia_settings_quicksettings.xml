@@ -49,6 +49,12 @@
             android:summary="@string/qs_show_auto_brightness_summary"
             android:dependency="qs_show_brightness_slider"
             android:defaultValue="true" />
+			
+		<com.epic.support.preferences.SystemSettingSwitchPreference
+            android:key="qs_footer_warnings"
+            android:title="@string/qs_footer_warnings_title"
+            android:summary="@string/qs_footer_warnings_summary"
+            android:defaultValue="true" />	
 
     </PreferenceCategory>
 

@@ -539,5 +539,4 @@
     <dimen name="epic_preference_category_padding_top">0.0dip</dimen>
     <dimen name="epic_preference_category_line_margin_start">10.0dip</dimen>
     <dimen name="epic_preference_category_height">40.0dip</dimen>
-
 </resources>

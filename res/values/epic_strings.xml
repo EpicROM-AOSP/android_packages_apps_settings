@@ -52,5 +52,8 @@
     <string name="dashboard_random6">What\'s up?</string>
 	
 	<string name="build_maintainer_summary">Build maintainer</string>
+	
+	 <!-- Radio Info -->
+    <string name="radio_info_title">Radio info</string>
 
 </resources>

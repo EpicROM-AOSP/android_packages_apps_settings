@@ -21,6 +21,7 @@
     <string name="anatolia_settings_summary">Our customization hub</string>
 
     <!-- Categories -->
+	<string name="animations_title">Animations</string>
     <string name="buttons_title">Buttons</string>
     <string name="gestures_title">Gestures</string>
     <string name="lockscreen_title">Lock screen</string>
@@ -30,6 +31,7 @@
     <string name="quicksettings_title">Quick settings</string>
     <string name="statusbar_title">Status bar</string>
     <string name="extras_title">Extras</string>
+	<string name="animations_summary">Animations options</string>
     <string name="buttons_summary">Buttons options</string>
     <string name="gestures_summary">Gestures menu</string>
     <string name="lockscreen_summary">Lock screen customizations</string>

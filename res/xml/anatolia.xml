@@ -26,6 +26,14 @@
             android:fragment="com.epic.fragments.StatusBarSettings"
             android:icon="@drawable/ic_anatolia_statusbar" />
 
+        <!-- Animations -->
+        <PreferenceScreen
+            android:key="animations_category"
+            android:title="@string/animations_title"
+            android:summary="@string/animations_summary"
+            android:fragment="com.epic.fragments.AnimationSettings"
+            android:icon="@drawable/ic_anatolia_animations" />
+
         <!-- Buttons -->
         <PreferenceScreen
             android:key="buttonsettings_category"

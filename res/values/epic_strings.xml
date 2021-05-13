@@ -186,5 +186,9 @@
 
     <!-- Battery temp -->
     <string name="battery_temp_title">Battery temperature</string>
-    <string name="battery_temp_summary">Tap to switch scale</string>	
+    <string name="battery_temp_summary">Tap to switch scale</string>
+
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">One shot auto-brightness</string>
+    <string name="auto_brightness_one_shot_summary">Brightness adjustment will only occur at the moment the screen is turned on</string>	
 </resources>

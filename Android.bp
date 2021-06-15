@@ -85,6 +85,7 @@ android_library {
         "android.hardware.dumpstate-V1-java",
         "android.hardware.dumpstate-V1.0-java",
         "android.hardware.dumpstate-V1.1-java",
+		"glide",
         "android.view.accessibility.flags-aconfig-java",
         "com_android_server_accessibility_flags_lib",
         "net-utils-framework-common",
@@ -186,4 +187,9 @@ android_library_import {
     name: "expandable-bottombar",
     aars: ["libs/lib-expandablebottombar-release.aar"],
     sdk_version: "current",
+}
+
+android_library_import {
+    name: "glide",
+    aars: ["libs/glide-4.9.0.aar"],
 }

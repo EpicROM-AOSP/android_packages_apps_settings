@@ -39,4 +39,6 @@
     <string name="cancel">Cancel</string>
     <string name="save">Save</string>
 
+    <string name="system_navigation_summary">Configure navigation menus</string>
+
 </resources>

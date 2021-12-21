@@ -25,7 +25,13 @@
             android:key="status_bar_notif_count"
             android:title="@string/status_bar_notif_count_title"
             android:summary="@string/status_bar_notif_count_summary"
-            android:defaultValue="false" />	
+            android:defaultValue="false" />
+
+       <com.epic.support.preferences.SystemSettingSwitchPreference
+            android:key="notification_sound_vib_screen_on"
+            android:title="@string/notification_sound_vib_screen_on_title"
+            android:summary="@string/notification_sound_vib_screen_on_summary"
+            android:defaultValue="true" />			
 	
 	   <com.epic.support.preferences.SystemSettingSwitchPreference
          android:key="toast_icon"

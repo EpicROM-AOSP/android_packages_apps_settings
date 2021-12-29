@@ -40,4 +40,8 @@
     <color name="wave_homepage_icon_google_color">#4285f4</color>
     <color name="wave_homepage_icon_wellbeing_color">#f06292</color>
     <color name="rui_divider_bg">@*android:color/system_accent1_600</color>
+	<color name="google_grey700">#5f6368</color>
+    <color name="edit_background_base">@color/google_grey700</color>
+    <color name="option_border_default">@color/edit_background_base</color>
+    <color name="option_border_default_custom">#5f6368</color>
 </resources>

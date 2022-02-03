@@ -25,4 +25,7 @@
      <dimen name="xd_pref_card_vertical_padding">32dp</dimen>
      <dimen name="xd_pref_card_horizontal_padding">16dp</dimen>
      <dimen name="xd_pref_card_horizontal_padding-negative">-16dp</dimen>
+	 
+	 <!-- Fingerprint -->
+    <dimen name="fingerprint_find_sensor_padding_top">16dp</dimen>
 </resources>

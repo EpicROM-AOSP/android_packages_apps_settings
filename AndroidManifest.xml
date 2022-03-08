@@ -4558,6 +4558,8 @@
                        android:resource="@string/build_tweaks_summary_title"/>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                        android:value="com.epic.Anatolia" />
+			<meta-data android:name="com.android.settings.HIGHLIGHT_MENU_KEY"
+                       android:value="@string/menu_key_epic"/>		   
             <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
                        android:value="true" />
         </activity>

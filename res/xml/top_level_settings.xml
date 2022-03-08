@@ -74,7 +74,9 @@
         android:order="-130"
         android:title="@string/anatolia_settings_title"
         android:summary="@string/build_tweaks_summary_title"
-        settings:controller="com.epic.TopLevelEpicEntryPreferenceController" />		
+        settings:controller="com.epic.TopLevelEpicEntryPreferenceController" 
+        settings:highlightableMenuKey="@string/menu_key_epic" />		
+		
         
     <com.android.settings.widget.HomepagePreference
         android:fragment="com.android.settings.DisplaySettings"

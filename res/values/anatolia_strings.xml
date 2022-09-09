@@ -196,6 +196,8 @@
     <!-- Battery Styles -->
     <string name="battery_percent_title">Battery Customization Options</string>
     <string name="sb_battery_title">StatusBar Battery Menu</string>
+    <string name="qs_battery_title">Qs Battery Menu</string>
+	<string name="qs_use_status_bar_battery_style">Follow status bar style</string>
     <string name="battery_percent_summary">Configure icon and text styles for the statusbar battery indicator</string>
     <string name="status_bar_battery_style_title">Battery style</string>
     <string name="status_bar_battery_style_icon_portrait">Icon portrait</string>

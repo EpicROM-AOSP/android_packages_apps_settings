@@ -18,7 +18,7 @@
 
     <!-- Anatolia -->
     <string name="anatolia_settings_title">Anatolia Settings</string>
-    <string name="anatolia_settings_summary">Our customization hub</string>
+	<string name="build_tweaks_summary_title">Customizations and more !</string>
 
     <!-- Categories -->
 	<string name="animations_title">Animations</string>

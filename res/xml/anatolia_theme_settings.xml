@@ -17,5 +17,17 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
         android:title="@string/themes_title">
+		
+	<PreferenceCategory
+        android:key="settings_layout_category"
+        android:title="@string/settings_layout_category_title">
+        
+        <Preference
+        android:key="settings_ınterface_style"
+        android:title="@string/interface_settings_title"
+        android:summary="@string/interface_settings_summary"
+        android:fragment="com.epic.fragments.UserInterface"/>
+		
+	</PreferenceCategory>	
 
 </PreferenceScreen>

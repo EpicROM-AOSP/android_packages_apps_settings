@@ -418,5 +418,11 @@
 	 <!-- Disable QS on Secure Lockscreen -->
     <string name="disable_qs_lockscreen_title">Disable QS on Lockscreen</string>
     <string name="disable_qs_lockscreen_summary">Enable or disable QS on secure lockscreen</string>
+	
+	 <!-- Quick settings styles -->
+    <string name="qs_styles_title">QS Panel Styles</string>
+    <string name="qs_outline">QS Outline Style</string>
+    <string name="qs_two_tone">QS Two-Tone Accent</string>
+    <string name="qs_color_pop">QS Color Pop</string>
     
 </resources>

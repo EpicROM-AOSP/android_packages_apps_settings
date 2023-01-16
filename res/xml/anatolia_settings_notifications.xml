@@ -44,6 +44,13 @@
             android:title="@string/reticker_title"
             android:summary="@string/reticker_summary"
             android:defaultValue="false" />
+			
+		<com.epic.support.preferences.SystemSettingSwitchPreference
+            android:dependency="reticker_status"
+            android:key="reticker_landscape_only"
+            android:title="@string/reticker_landscape_only_title"
+            android:summary="@string/reticker_landscape_only_summary"
+            android:defaultValue="false" />	
 
         <com.epic.support.preferences.SystemSettingSwitchPreference
             android:dependency="reticker_status"

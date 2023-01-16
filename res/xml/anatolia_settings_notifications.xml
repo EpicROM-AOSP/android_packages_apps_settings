@@ -33,6 +33,25 @@
          android:summary="@string/toast_icon_summary"
          android:defaultValue="false" />
 		 
-	 </PreferenceCategory>	 
+	 </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="reticker"
+        android:title="@string/reticker_category" >
+
+        <com.epic.support.preferences.SystemSettingSwitchPreference
+            android:key="reticker_status"
+            android:title="@string/reticker_title"
+            android:summary="@string/reticker_summary"
+            android:defaultValue="false" />
+
+        <com.epic.support.preferences.SystemSettingSwitchPreference
+            android:dependency="reticker_status"
+            android:key="reticker_colored"
+            android:title="@string/reticker_colored_title"
+            android:summary="@string/reticker_colored_summary"
+            android:defaultValue="false" />
+
+    </PreferenceCategory>	 
 
 </PreferenceScreen>

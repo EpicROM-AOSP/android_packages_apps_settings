@@ -414,5 +414,9 @@
     <string name="quick_pulldown_none">Disabled</string>
     <string name="quick_pulldown_right">Pulldown statusbar from right side</string>
     <string name="quick_pulldown_left">Pulldown statusbar from left side</string>
+	
+	 <!-- Disable QS on Secure Lockscreen -->
+    <string name="disable_qs_lockscreen_title">Disable QS on Lockscreen</string>
+    <string name="disable_qs_lockscreen_summary">Enable or disable QS on secure lockscreen</string>
     
 </resources>

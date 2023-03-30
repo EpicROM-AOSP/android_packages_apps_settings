@@ -46,6 +46,12 @@
                 android:targetPackage="com.android.systemui" 
                 android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
         </Preference>
+		
+		<com.epic.support.preferences.SystemSettingSwitchPreference
+            android:key="statusbar_colored_icons"
+            android:title="@string/statusbar_colored_icons_title"
+            android:summary="@string/statusbar_colored_icons_summary"
+            android:defaultValue="false" />
 
         <com.epic.support.preferences.SecureSettingSwitchPreference
             android:key="hide_qs_call_strength"

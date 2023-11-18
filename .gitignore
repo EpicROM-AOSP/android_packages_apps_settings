@@ -1,3 +1,5 @@
 .idea/
 *.code-workspace
 *.iml
+res-dumpster
+src_dumpster

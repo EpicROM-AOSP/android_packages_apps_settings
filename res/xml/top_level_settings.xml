@@ -25,11 +25,20 @@
         android:fragment="com.android.settings.deviceinfo.aboutphone.MyDeviceInfoFragment"
         android:icon="@drawable/ic_settings_about_device"
         android:key="top_level_about_device"
-        android:order="-160"
+        android:order="-170"
         android:title="@string/about_settings"
-        settings:layout="@layout/epic_homepage_card_sin"
+        settings:layout="@layout/epic_homepage_card_top"
         settings:highlightableMenuKey="@string/menu_key_about_device"
         settings:controller="com.android.settings.deviceinfo.aboutphone.TopLevelAboutDevicePreferenceController"/>
+    
+    <Preference
+        android:key="top_level_dumpster"
+        android:title="@string/dumpster_dashboard_title"
+        android:icon="@drawable/ic_settings_dumpster"
+        android:order="-160"
+        settings:layout="@layout/epic_homepage_card_bot"
+        android:fragment="com.epic.dumpster.EpicDumpsterDashboard"
+        settings:controller="com.epic.dumpster.TopLevelExtensionsEntryPreferenceController" />
 		
 	<com.android.settings.widget.HomepagePreference
         android:fragment="com.android.settings.DisplaySettings"

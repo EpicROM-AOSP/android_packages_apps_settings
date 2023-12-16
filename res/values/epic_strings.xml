@@ -9,4 +9,8 @@
 	
 	<!-- EpicROM Maintainer -->
     <string name="maintainer">EpicROM Maintainer</string>
+	
+	<!-- About Phone -->
+    <string name="declan_storage_usage_summary">%1$s %2$s used</string>
+    <string name="declan_storage_total_summary">%1$s %2$s</string>
 </resources>

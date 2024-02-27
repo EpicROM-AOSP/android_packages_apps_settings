@@ -18,6 +18,7 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:title="@string/firmware_version"
     settings:keywords="@string/keywords_android_version">
 	
@@ -35,19 +36,21 @@
         settings:controller="declan.prjct.settings.aboutphone.StoragePreferencesController"
         settings:enableCopying="true"
 		settings:layout="@layout/epic_preference_storage" />
-    <Preference
+     <com.android.settings.widget.ValidatedEditTextPreference
         android:icon="@drawable/ic_epic_device"
+        android:key="device_name"
+        android:title="@string/my_device_info_device_name_preference_title"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        app:controller="com.android.settings.deviceinfo.aboutphone.TopLevelAboutDevicePreferenceController"
+        settings:layout="@layout/epic_preference_maintainer"/>
+    <Preference
+        android:icon="@drawable/ic_epic_team"
         android:key="maintainer"
         android:title="@string/maintainer"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.aboutphone.TopLevelAboutDevicePreferenceController"
-        settings:layout="@layout/epic_preference_maintainer"/>
-    <Preference
-        android:icon="@drawable/ic_epic_team"
-        android:title="EpicROM Team"
-        android:key="epic_team"
-        app:controller="com.epic.dumpster.category.AboutTeamFragment"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.EpicMaintainerPreferenceController"
         settings:layout="@layout/epic_pref_card_sin_accent" />
 
     <!-- EpicROM version -->

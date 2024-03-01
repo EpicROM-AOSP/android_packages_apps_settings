@@ -74,6 +74,7 @@ public class PhoneNumberPreferenceController extends BasePreferenceController {
             multiSimPreference.setOrder(phonePreferenceOrder + simSlotNumber);
             multiSimPreference.setKey(KEY_PHONE_NUMBER + simSlotNumber);
             category.addPreference(multiSimPreference);
+            multiSimPreference.setLayoutResource(R.layout.epic_pref_card_mid);
             mPreferenceList.add(multiSimPreference);
         }
     }

@@ -55,7 +55,6 @@
 
     <!-- EpicROM version -->
     <PreferenceCategory
-        android:icon="@drawable/icon_preference_category"
         android:title="EpicROM version"
         android:key="epic_version_category"
         settings:layout="@layout/epic_preference_category">
@@ -79,7 +78,6 @@
     
     <!-- Android version -->
     <PreferenceCategory
-        android:icon="@drawable/icon_preference_category"
         android:title="Android version"
         android:key="android_version_category"
         settings:layout="@layout/epic_preference_category">

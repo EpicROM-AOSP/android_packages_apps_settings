@@ -55,5 +55,7 @@
 	
 	 <!-- Radio Info -->
     <string name="radio_info_title">Radio info</string>
+	
+	<string name="summary_aboutx">Let You know about device</string>   
 
 </resources>
